@@ -7,6 +7,4 @@ contract SampleERC20 is ERC20 {
         _setupDecimals(decimals);
         _mint(_msgSender(), initialSupply * 10**uint(super.decimals()));
     }
-
-    function _test() public {}
 }
